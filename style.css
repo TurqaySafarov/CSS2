@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Anta", sans-serif;
+}
+
+.snake {
+    width: auto 0;
+    height: 100vh;
+    background-image: url(yellow_snake_on_tree_branch_in_black_background_4k_hd_animals.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align:middle;
+    padding: 120px;
+
+}
+.snake_h1{
+    color: rgb(226, 194, 181);
+}
+.snake p {
+    line-height: 20px;
+    text-align: center;
+    color: rgb(226, 194, 181);
+    width: 50%;
+}
+
+.snake_h2 {
+    color: aliceblue;
+    font-size: 18px;
+    word-spacing: 10 px;
+    line-height: 30px;
+}
+
+.class {
+    color: rgb(234, 203, 191);
+    font-size: medium;
+    text-shadow: 0 3px 3px rgb(37, 30, 235);
+}
+
+button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #ad8c69;
+    border-radius: 50px;
+    padding: 5px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    box-shadow: 0px 0px 20px rgb(190, 105, 105);
+}
+
+.skin_h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif:'Courier New', Courier, monospace;
+    text-shadow: 0 1px 1px rgb(0, 0, 2);
+    text-align: center;
+}
+
+.Skin {
+    width: auto%;
+    height: 50%;
+    background-color: bisque;
+    text-align: justify;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
